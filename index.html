@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fruits Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=yes">
+        <link rel="stylesheet" href="styling.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+        <!--    Embedding jQUERY CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--    Embedding jQUERY UI CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </head> 
+    <body>
+        
+        <div id="container">
+            <div id="progress">
+                <div id="label"></div>
+            </div>
+            <button id="run" class="ui-corner-all">Start Game</button>
+            
+            <div id="score" class="ui-corner-all">
+                Score: <span id=scorevalue>0</span>
+            </div>
+            <h3 id="header">Fruit Slicer</h3>
+            <div id="lifeRemaining">
+            </div>
+            <div id="fruitsContainer">
+                <img id="fruit1" class="fruit">
+            </div>
+            <div id="information">
+                Catch Fruits
+            </div>
+            
+            <div id="startreset">
+                Start Game
+            </div>
+            <div id="gameover">
+            </div>
+            <audio id="sliceSound">
+                <source src="audio/sword.mp3">
+                <source src="audio/sword.ogg">
+            </audio>
+            <div id="clear">
+            </div>
+            <footer class="footer ui-state-highlight ui-corner-all">
+            <div>
+            <p>Vinoth.SV Web Service. Copyright &copy; 2018-2025.</p>
+            </div>
+            </footer>
+        </div>
+        <script src="jquery.js">
+        
+        </script>
+    </body>
+</html>
